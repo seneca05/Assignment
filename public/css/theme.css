@@ -1,0 +1,81 @@
+/*CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Merriweather:wght@300;900&family=Roboto:ital,wght@1,100&display=swap');
+
+/* Navigation Bar */
+.bg-light {
+    background-color: #246fb9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  
+/* Navigation "Brand" */
+.navbar-brand {
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0); 
+}
+  
+/* Navigation "Link" */
+.nav-link {
+    font-family: 'Merriweather', sans-serif; 
+    color: #6c65f3; 
+}
+  
+.nav-link:hover {
+    color: #ff0000; 
+}
+  
+/* App Background */
+body, html {
+    background-color: #ffffff; 
+    background-image: linear-gradient(to bottom, #a9a4c7, #bad4e0); 
+    background-size: cover; 
+    overflow: auto; 
+}
+  
+/* "Primary" Button */
+.btn-primary {
+    background-color: #007bff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  
+.btn-primary:hover {
+    background-color: #b7bec5;  
+}
+  
+/* Table cells inside "odd" numbered table rows */
+table tr:nth-child(odd) td {
+    background-color: #f7e6e6; 
+    background-image: linear-gradient(to right, #0000ff);
+}
+  
+/* All "Heading" elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', sans-serif; 
+    color: #333; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+  
+/* All "Anchor" elements (HTML Links) */
+a {
+    color: #007bff; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+  
+a:hover {
+    color: #0056b3; 
+}
+  
+legend {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-family: 'Roboto', sans-serif; 
+    color: #555; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+html {
+    background: linear-gradient(to bottom, #3212be, #3212b);
+    width: 100%;
+    height: 100%;
+}
