@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <main class="col-md-12">
+
+      <form action="/course/update" method="POST">
+        <input type="hidden" name="courseId" value="{{course.courseId}}">
+        <fieldset>
+          <legend>Course Information</legend>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Course Code:</label>
+                <input class="form-control" type="text" name="courseCode" value="{{course.courseCode}}" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Course Description:</label>
+                <input class="form-control" type="text" name="courseDescription" value="{{course.courseDescription}}" required>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <hr />
+        <input type="submit" class="btn btn-primary float-right" value="Update Course" /><br /><br /><br />
+      </form>
+
+    </main>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhz...">
